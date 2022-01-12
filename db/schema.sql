@@ -1,3 +1,4 @@
-DROP DATABASE IF EXISTS pantries_db;
-CREATE DATABASE pantries_db;
-USE pantries_db;
+DROP DATABASE IF EXISTS pantry_db;
+CREATE DATABASE pantry_db;
+
+USE pantry_db;
