@@ -1,9 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Saved_Locations extends Model {};
+class Locations extends Model {
 
-Saved_Locations.init(
+}
+
+Locations.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -11,17 +13,37 @@ Saved_Locations.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DataTypes.STRING,
+        address: {
+            type: DataTypes.VARCHAR(100),
             allowNull: false,
         },
 
+        city: {
+            type: DataTypes.VARCHAR(15),
+            allowNull: false,
+        },
+
+        zip: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+
+        state: {
+            type: DataTypes.VARCHAR(15),
+            allowNull: false,
+        },
+
+        favorite: {
+            type: DataTypes.TINYINT,
+            allowNull: false,
+        },
+        
         users_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
                 model: 'users',
-                key: 'id',               
+                key: 'id',
             },
         },
     },
@@ -31,8 +53,8 @@ Saved_Locations.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'public',
+        modelName: 'locations',
     }
 );
 
-module.exports = Saved_Locations;
+module.exports = Locations;

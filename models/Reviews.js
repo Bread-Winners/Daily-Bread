@@ -1,11 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Public extends Model {
+class Reviews extends Model {
 
 }
 
-Public.init(
+Reviews.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -13,12 +13,13 @@ Public.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        saved_locations_id: {
+
+        locations_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
-                model: 'saved_locations',
-                key: 'id',               
+                model: 'locations',
+                key: 'id',
             },
         },
 
@@ -27,28 +28,24 @@ Public.init(
             allowNull: false,
             references: {
                 model: 'users',
-                key: 'id',               
+                key: 'id',
             },
         },
 
         comment: {
             type: DataTypes.VARCHAR(280),
-            allowNull: true,
-            references: {
-                model: 'comment',
-                key: 'id',               
-            },
+            allowNull: false,
         },
 
         rating: {
             type: DataTypes.INTEGER,
-            allowNull: false,
-            validate: {
-                msg: 'Please enter a rating between 0 and 5!',
-            }
+            allowNull: true,
         },
 
-
+        public: {
+            type: DataTypes.TINYINT,
+            allowNull: false,
+        },
     },
 
     {
@@ -56,8 +53,8 @@ Public.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'public',
+        modelName: 'reviews',
     }
 );
 
-module.exports = Public;
+module.exports = Reviews;
