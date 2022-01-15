@@ -33,8 +33,12 @@ Reviews.init(
         },
 
         comment: {
-            type: DataTypes.VARCHAR(280),
+            type: DataTypes.STRING,
             allowNull: false,
+            validate: {
+                max: 280,
+                msg: "Max is 280 characters"
+            },
         },
 
         rating: {

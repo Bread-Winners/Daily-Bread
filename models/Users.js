@@ -17,16 +17,16 @@ Users.init(
             autoIncrement: true,
         },
         first_name: {
-            type: DataTypes.VARCHAR(30),
+            type: DataTypes.STRING,
             allowNull: false,
         },
 
         last_name: {
-            type: DataTypes.VARCHAR(30),
+            type: DataTypes.STRING,
             allowNull: false,
         },
         email: {
-            type: DataTypes.VARCHAR(30),
+            type: DataTypes.STRING,
             allowNull: false,
             unique: true,
             validate: {
@@ -34,7 +34,7 @@ Users.init(
             },
         },
         password: {
-            type: DataTypes.VARCHAR(30),
+            type: DataTypes.STRING,
             allowNull: false,
             validate: {
                 len: [6, 8],
