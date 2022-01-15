@@ -14,12 +14,12 @@ Locations.init(
             autoIncrement: true,
         },
         address: {
-            type: DataTypes.VARCHAR(100),
+            type: DataTypes.STRING,
             allowNull: false,
         },
 
         city: {
-            type: DataTypes.VARCHAR(15),
+            type: DataTypes.STRING,
             allowNull: false,
         },
 
@@ -29,7 +29,7 @@ Locations.init(
         },
 
         state: {
-            type: DataTypes.VARCHAR(15),
+            type: DataTypes.STRING,
             allowNull: false,
         },
 
