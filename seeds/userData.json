@@ -3,24 +3,24 @@
       "first_name": "Josshy",
       "last_name": "Mahomes",
       "email": "josshy@hotmail.com",
-      "password": "password12345"
+      "password": "abc1234"
     },
     {
       "first_name": "Edyta",
       "last_name": "Curry",
       "email": "edyta@gmail.com",
-      "password": "password12345"
+      "password": "1234567"
     },
     {
       "first_name": "Jackie",
       "last_name": "Brady",
       "email": "jackie@aol.com",
-      "password": "password12345"
+      "password": "1234567"
     },
     {
         "first_name": "Brian",
         "last_name": "James",
         "email": "brian@aol.com",
-        "password": "password12345"
+        "password": "1234567"
       }
   ]
