@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Reviews } = require('../../models');
-
+const withAuth = require('../../utils/auth');
 
 router.get('/', async (req, res) => {
     try {
@@ -59,3 +59,5 @@ router.delete('/:id', withAuth, (req, res) => {
         res.status(500).json(err);
     });
 });
+
+module.exports = router;
