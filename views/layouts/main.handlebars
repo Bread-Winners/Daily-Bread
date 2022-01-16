@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {{!-- <link rel="stylesheet" href="css/app.css"> --}}
-  <title>Project2</title>
+  <title>Project 2!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
 </head>
-  <body>
-      <header class="display-flex justify-space-between align-center p-2">
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
       <h1 class="title">
-        <span role="img" aria-label="galaxy">🍉🍅</span>
-        <p >NeighborGoods!</p>
+        <span role="img" aria-label="galaxy">🍒🍉🥝🍌🍅</span>
+        <p >NeighborGoods</p>
       </h1>
       <nav class="button">
         <!-- Conditionally render login or logout links -->
@@ -20,7 +24,7 @@
         <a  class="button" id="logout">Logout</a> |
         {{else}}
         <a href="/login" class="button">Login</a>
-        <a href="/login" class="button">Dashboard</a>
+        <a href="/login" class="button">Profile</a>
         {{/if}}
         <a href="/" class="button">Home</a>
       </nav>
@@ -30,7 +34,7 @@
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      Thanks for coming!
     </footer>
   </div>
 
@@ -38,5 +42,6 @@
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
-  </body>
+</body>
+
 </html>
