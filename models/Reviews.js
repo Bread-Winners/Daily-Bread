@@ -36,8 +36,7 @@ Reviews.init(
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                max: 280,
-                msg: "Max is 280 characters"
+                max: 280
             },
         },
 
