@@ -29,10 +29,10 @@ router.post('/', withAuth, (req, res) => {
     if (req.session) {
         Reviews.create({
             locations_id: req.body.locations_id,
-            user_id: req.session.user_id,
+            users_id: req.session.users_id,
             comment: req.body.comment,
-            rating: req.session.rating,
-            public: req.session.public
+            rating: req.body.rating,
+            public: req.body.public
 
         })
             .then(dbReviewsData => res.json(dbReviewsData))
