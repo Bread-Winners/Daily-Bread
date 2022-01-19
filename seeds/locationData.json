@@ -6,5 +6,13 @@
         "state": "IL",
         "favorite": 1,
         "users_id": 1
+    },
+    {
+        "address": "1234 blue road",
+        "city": "chicago",
+        "zip": "60609",
+        "state": "IL",
+        "favorite": 0,
+        "users_id": 2
     }
 ]
