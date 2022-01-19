@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Reviews } = require('../../models');
 const withAuth = require('../../utils/auth');
 
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
     try {
         res.render('reviews', {
             logged_in: req.session.logged_in
@@ -25,11 +25,11 @@ router.get('/:locations_id', (req, res) => {
         })
 });
 
-router.post('/', withAuth, (req, res) => {
-    if (req.session) {
+router.post('/',  (req, res) => {
+    
         Reviews.create({
             locations_id: req.body.locations_id,
-            users_id: req.session.users_id,
+            users_id: req.body.users_id,
             comment: req.body.comment,
             rating: req.body.rating,
             public: req.body.public
@@ -40,7 +40,7 @@ router.post('/', withAuth, (req, res) => {
                 console.log(err);
                 res.status(400).json(err);
             })
-    }
+    
 });
 
 router.delete('/:id', withAuth, (req, res) => {
