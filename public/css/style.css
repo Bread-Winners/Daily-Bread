@@ -11,3 +11,22 @@
 .review-input {
     margin-top: 1rem;
 }
+
+.header {
+    display: flex;
+    flex-direction:row;
+    background-color: blue;
+
+}
+
+.button {
+    display: flex;
+    justify-content:center;
+    color: black;
+    /* text-transform: capitalize; */
+    /* align-items: flex-end; */
+    /* align-self: flex-end; */
+    /* align-content: flex-end; */
+    margin-left: 20rem;
+
+}
