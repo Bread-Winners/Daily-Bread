@@ -21,12 +21,17 @@
 
 .button {
     display: flex;
+    flex-direction: row;
     justify-content:center;
     color: black;
     /* text-transform: capitalize; */
     /* align-items: flex-end; */
     /* align-self: flex-end; */
     /* align-content: flex-end; */
-    margin-left: 20rem;
-
 }
+
+.pagedash{
+    display: flex;
+    justify-content: center;
+}
+
