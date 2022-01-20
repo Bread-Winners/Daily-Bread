@@ -30,8 +30,36 @@
     /* align-content: flex-end; */
 }
 
-.pagedash{
+.pagedash {
     display: flex;
     justify-content: center;
 }
+.map {
+    display: flex;
+    justify-content: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.favorites {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+/* 
+.pure-g {
+    box-sizing: border-box;
+} */
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+}
