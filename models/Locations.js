@@ -19,7 +19,7 @@ Locations.init(
         },
         address: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
 
         city: {
