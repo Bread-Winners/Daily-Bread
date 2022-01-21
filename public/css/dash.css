@@ -1,0 +1,63 @@
+/* Dashboard */
+
+.header {
+    display: flex;
+    flex-direction:row;
+    background-color: blue;
+
+}
+
+.dashimg {
+    max-width: 100%;;
+    height: 50%;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: black;
+    /* text-transform: capitalize; */
+    /* align-items: flex-end; */
+    /* align-self: flex-end; */
+    /* align-content: flex-end; */
+}
+
+.pagedash {
+    display: flex;
+    justify-content: center;
+}
+.map {
+    display: flex;
+    justify-content: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.favorites {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.pure-button {
+    background-color: teal;
+}
+
+/* 
+.pure-g {
+    box-sizing: border-box;
+} */
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+}
