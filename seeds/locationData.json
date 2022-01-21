@@ -1,0 +1,466 @@
+[
+    {
+        "name": "Chicago Hope Food Pantry",
+        "address": "2505 N Kedzie Blvd",
+        "city": "Chicago",
+        "zip": 60647,
+        "state": "IL",
+        "phone": "773-499-9763",
+        "hoursOfOp": "Mon 4-6pm, Thurs 10AM-12PM"
+    },
+    {
+        "name": "Marillac Food Pantry",
+        "address": "2859 W. Jackson Ave",
+        "city": "Chicago",
+        "zip": 60612,
+        "state": "IL",
+        "phone": "773-584-3244",
+        "hoursOfOp": "Wed 2:30-5:30PM, Fri 10AM-3:30PM"
+    },
+    {
+        "name": "Shepherd's HOPE, Ltd",
+        "address": "5732 S Lowe Ave",
+        "city": "Chicago",
+        "zip": 60621,
+        "state": "IL",
+        "phone": "773-846-94949",
+        "hoursOfOp": "Tue/Wed 10AM-2PM"
+        
+    },
+    {
+        "name": "The ARK",
+        "address": "6450 N California Ave",
+        "city": "Chicago",
+        "zip": 60645,
+        "state": "IL",
+        "phone": "773-973-1000",
+        "hoursOfOp": "Tue/Wed/Thurs/ 9AM-3PM, Fri 9AM-2PM"
+    },
+    {
+        "name": "St. Paul & the Redeemer",
+        "address": "4945 S Dorchester Ave",
+        "city": "Chicago",
+        "zip": 60615,
+        "state": "IL",
+        "phone": "773-624-3185",
+        "hoursOfOp": "Wed 3:30-5:30PM, Sun 8AM-1PM"
+    },
+    {
+        "name": "Feed Clothe and Help The Needy",
+        "address": "1234 W 59th Street",
+        "city": "Chicago",
+        "zip": 60636,
+        "state": "IL",
+        "phone": "773-426-8277",
+        "hoursOfOp": "Tue/Wed/Thurs/Fri 11AM-2PM"
+    },
+    {
+        "name": "Breakthrough Urban Ministries",
+        "address": "3330 West Carroll St",
+        "city": "Chicago",
+        "zip": 60612,
+        "state": "IL",
+        "phone": "773-722-1144",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 9AM-3PM"
+    },
+    {
+        "name": "Beverly Hills SDA Food Pantry",
+        "address": "9356 S Justine St",
+        "city": "Chicago",
+        "zip": 60620,
+        "state": "IL",
+        "phone": "773-233-7264",
+        "hoursOfOp": "Wed 10AM-12PM"
+    },
+    {
+        "name": "St Elizabeth of the Trinity Parish",
+        "address": "6020 W Ardmore Ave",
+        "city": "Chicago",
+        "zip": 60646,
+        "state": "IL",
+        "phone": "773-762-8228",
+        "hoursOfOp": "Mon/Wed/Thurs 1-2"
+    },
+    {
+        "name": "Kingdom of God Missionary Baptist Church",
+        "address": "1818 W 50th St",
+        "city": "Chicago",
+        "zip": 60609,
+        "state": "IL",
+        "phone": "773-306-1362",
+        "hoursOfOp":"Tues 12-2PM"
+    },
+    {
+        "name": "Care For Real",
+        "address": "5341 N Sheridan Rd",
+        "city": "Chicago",
+        "zip": 60640,
+        "state": "IL",
+        "phone": "773-769-6182",
+        "hoursOfOp": "Mon 4-7PM, Wed/Fri 9AM-12PM, Sat 9AM -1PM"
+    },
+    {
+        "name": "St Mark United Methodist Church",
+        "address": "8441 S St. Lawrence Ave",
+        "city": "Chicago",
+        "zip": 60619,
+        "state": "IL",
+        "phone": "773-846-2992",
+        "hoursOfOp": " Wed 10AM-2PM"
+    },
+    {
+        "name": "La Casa Norte's Fresh Market",
+        "address": "3533 W North Ave",
+        "city": "Chicago",
+        "zip": 60647,
+        "state": "IL",
+        "phone": "773-388-1600",
+        "hoursOfOp": "Mon/Wed 9AM-5PM, Tue 10AM-5PM, Thurs 11AM-7PM, Fri 9AM-5PM"
+    
+    },
+    {
+        "name": "Christ Evangelical Lutheran Church",
+        "address": "1511 North Long Avenue",
+        "city": "Chicago",
+        "zip": 60651,
+        "state": "IL",
+        "phone": "773-637-4800",
+        "hoursOfOp": "Sat 8-10AM"
+    
+    },
+    {
+        "name": "Brave Space Alliance",
+        "address": "1515 E 52nd Place",
+        "city": "Chicago",
+        "zip": 60615,
+        "state": "IL",
+        "phone": "782-333-5199",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM, Sat 10AM-3PM"
+    
+    },
+    {
+        "name": "A Just Harvest",
+        "address":"7649 North Paulina Street",
+        "city":"Chicago",
+        "zip": 60626,
+        "state": "IL",
+        "phone": "773-262-2297",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Satu/Sun 12-2PM"
+    
+    },
+    {
+        "name": "Common Pantry",
+        "address": "3744 N. Damen Avenue",
+        "city": "Chicago",
+        "zip": 60618,
+        "state": "IL",
+        "phone": "773-327-0553",
+        "hoursOfOp": "Wed 12-8PM, Thurs 1-4PM"
+    
+    },
+    {
+        "name":"The Irving Park Community Food Pantry",
+        "address":"4256 North Ridgeway Ave",
+        "city": "Chicago",
+        "zip": 60618,
+        "state": "IL",
+        "phone": "773-283-6296",
+        "hoursOfOp": "Wed 9AM-12PM"
+    
+    },
+    {
+        "name": "Lakeview Pantry Sheridan",
+        "address": "3945 N Sheridan",
+        "city": "Chicago",
+        "zip": 60613,
+        "state": "IL",
+        "phone": "773-525-1777",
+        "hoursOfOp": "Mon/Wed/Fri/Sat 11AM-3PM, Thur 4-7PM"
+    
+    },
+    {
+        "name":"Greater Chicago Food Depository",
+        "address":"4100 W Ann Lurie Place",
+        "city":"Chicago",
+        "zip": 60632,
+        "state":"IL",
+        "phone": "773-247-3663",
+        "hoursOfOp": "Mon/Tue/Wed/Thurs/Fri 8:30AM-5PM"
+    
+    },
+    {
+        "name":"Cornerstone Community Outreach Transitional Shelter for Homeless Families",
+        "address": "4628 North Clifton Avenue",
+        "city":"Chicago",
+        "zip": 60640,
+        "state": "IL",
+        "phone": "773-271-8163",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 7AM-7PM"
+    
+    },
+    {
+        "name": "Redeeming Grace Church Food Pantry",
+        "address":"11801 S.Sangamon Street",
+        "city": "Chicago",
+        "zip": 60643,
+        "state": "IL",
+        "phone": "773-995-7721",
+        "hoursOfOp": "Sat 10AM-1PM"
+    
+    },
+    {
+        "name":"Ravenswood Community Services",
+        "address": "4550 N. Hermitage Ave.",
+        "city": "Chicago",
+        "zip": 60640,
+        "state": "IL",
+        "phone": "773-779-5151",
+        "hoursOfOp": "Sat 10AM-12PM"
+    
+    },
+    {
+        "name":"Care For Friends",
+        "address": "530 W. Fullerton Parkway",
+        "city": "Chicago",
+        "zip": 60614,
+        "state": "IL",	
+        "phone": "773-932-1010",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
+    
+    },
+    {
+        "name": "Howard Area Community Center",
+        "address":"7648 N Paulina Street",
+        "city": "Chicago",
+        "zip": 60626,
+        "state": "IL",
+        "phone": "773-262-6622",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
+    
+    },
+    {
+        "name":"Chicago Food Pantry",
+        "address": "6525 N. Clark Street",
+        "city": "Chicago",
+        "zip": 60626,
+        "state": "IL",
+        "phone": "773-761-6689",
+        "hoursOfOp": "Sat 9AM-11PM"
+    },
+    {
+        "name": "Oak Park River Forest Food Pantry",
+        "address": "848 Lake St",
+        "city": "Oak Park",
+        "zip": 60301,
+        "state": "IL",
+        "phone": "708-386-1324",
+        "hoursOfOp": "Wed 3:30-5:30PM, Sat 9AM-12PM"
+    },
+    {
+        "name": "Trinity Charities Inc. Food Pantry",
+        "address": "927 N Plum Grove Rd",
+        "city": "Schaumburg",
+        "zip": "60173",
+        "state": "IL",
+        "phone": "847-264-4660",
+        "hoursOfOp": "Thurs 4-6PM, Sat 10AM-1PM"
+    },
+    {
+        "name": "York Township Pantry",
+        "address": "1502 S Meyers Rd",
+        "city": "Lombard",
+        "zip": 60148,
+        "state": "IL",
+        "phone": "630-620-2400",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9-11AM"
+    },
+    {
+        "name": "Lombard-Villa Park Pantry",
+        "address": "155 S Main St",
+        "city": "Lombard",
+        "zip": 60148,
+        "state": "IL",
+        "phone": "",
+        "hoursOfOp": "Mon 9AM-11:45AM, Wed 9AM-11:45AM, Fri 9AM-12PM"
+    },
+    {
+        "name": "Calvary Church Pantry",
+        "address": "9S2000 Route 59",
+        "city": "Naperville",
+        "zip": 60564,
+        "state": "IL",
+        "phone": "630-851-7000",
+        "hoursOfOp": "MOn/Tues/Wed/Thurs/ 8AM-12PM & 1-5PM, Sun 9AM-12:30PM"
+    },
+    {
+        "name": "Loaves & Fishes Community Services",
+        "address": "1871 High Grove Lane",
+        "city": "Naperville",
+        "zip": 60540,
+        "state": "IL",
+        "phone": "630-355-3663",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs 9AM-5PM, Fri 9AM-2PM, Sat 9AM-12PM"
+    },
+    {
+        "name": "Orland Township Food Pantry",
+        "address": "14807 S Ravinia Ave",
+        "city": "Orland Park",
+        "zip": 60462,
+        "state": "IL",
+        "phone": "708-403-4222",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
+    },
+    {
+        "name": "Our Lady of Hope Catholic Church - Food Pantry",
+        "address": "9711 W Devon Ave",
+        "city": "Rosemont",
+        "zip": 60018,
+        "state": "IL",
+        "phone": "847-825-4673",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
+    },
+    {
+        "name": "Moraine Township Food Pantry",
+        "address": "777 Central Ave",
+        "city": "Highland Park",
+        "zip": 60035,
+        "state": "IL",
+        "phone": "847-432-3240",
+        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 8:30AM-4:30PM"
+    },
+    {
+        "name": "Zion Evangelical Lutheran Soup Kitchen",
+        "address": "330 Griswold St",
+        "city": "Elgin",
+        "zip": 60123,
+        "state": "IL",
+        "phone": "847-888-2882",
+        "hoursOfOp": "Tues 5:30-6:30PM"
+    },
+    {
+        "name": "Evanston Vineyard Food Pantry",
+        "address": "2495 Howard St",
+        "city": "Evanston",
+        "zip": 60202,
+        "state": "IL",
+        "phone": "847-328-4544",
+        "hoursOfOp": "Wed 6-8PM"
+    },
+    {
+        "name": "Self Help Closet and Pantry of Des Plaines",
+        "address": "600 E Algonquin Rd",
+        "city": "Des Plaines",
+        "zip": 60016,
+        "state": "IL",
+        "phone": "847-375-1443",
+        "hoursOfOp": "Mon/Sat 9AM-12PM, Tues 9AM-3PM"
+    },
+    {
+        "name": "Leyden Family Services - Food Pantry",
+        "address": "10001 W Grand Ave",
+        "city": "Franklin Park",
+        "zip": 60131,
+        "state": "IL",
+        "phone": "847-451-5117 / 847-451-5112",
+        "hoursOfOp": "Appoinment Only!"
+    },
+    {
+        "name": "Food4Life at Resurrection Lutheran",
+        "address": "9777 Grand Ave",
+        "city": "Franklin Park",
+        "zip": 60131,
+        "state": "IL",
+        "phone": "847-455-7013",
+        "hoursOfOp": "Mon 12-3PM"
+    },
+    {
+        "name": "Congregation Beth Am",
+        "address": "1370 Abbott Court",
+        "city": "Buffalo Grove",
+        "zip": 60089,
+        "state": "IL",
+        "phone": "847-383-5017",
+        "hoursOfOp": "Tues/Wed/Thurs 10AM-5PM, Fri 10AM-3PM"
+    },
+    {
+        "name": "Fish OF Downers Grove",
+        "address": "4340 Prince St",
+        "city": "Downers Grove",
+        "zip": 60515,
+        "state": "IL",
+        "phone": "630-964-7776",
+        "hoursOfOp": "Tues/Thurs 8:30-10:30AM, Fri 8:30-11AM"
+    },
+    {
+        "name": "St Anastasia Food Pantry",
+        "address": "624 Douglas Ave",
+        "city": "Waukegan",
+        "zip": 60085,
+        "state": "IL",
+        "phone": "847-636-2875",
+        "hoursOfOp": "Thurs 10AM-12PM"
+    },
+    {
+        "name": "Shiloh Baptist Church Soup Kitchen",
+        "address": "800 S Genesee St",
+        "city": "Waukegan",
+        "zip": 60085,
+        "state": "IL",
+        "phone": "847-662-6325",
+        "hoursOfOp": "Wed 4-6PM"
+    },
+    {
+        "name": "Holy Family Food Pantry",
+        "address": "914 8th St",
+        "city": "Waukegan",
+        "zip": 60085,
+        "state": "IL",
+        "phone": "847-775-0116",
+        "hoursOfOp": "Wed/Thurs/Fri/Sat 5:30-6:30PM"
+    },
+    {
+        "name": "Village Pantry Coalition",
+        "address": "2700 W 98th Pl",
+        "city": " Evergeen Park",
+        "zip": 60805,
+        "state": "IL",
+        "phone": "708-422-8776",
+        "hoursOfOp": "Fri 9:30AM-12PM"
+    },
+    {
+        "name": "Arab American Ed. Council",
+        "address": "3777 W Columbus Ave",
+        "city": "Chicago",
+        "zip": 60652,
+        "state": "IL",
+        "phone": "773-581-1083",
+        "hoursOfOp": "Appointment Only!"
+    },
+    {
+        "name": "Common Food Pantry",
+        "address": "3744 N Damen Ave",
+        "city": "Chicago",
+        "zip": 60618,
+        "state": "IL",
+        "phone": "773-327-0553",
+        "hoursOfOp": "Wed 12-4PM & 6-8PM, Thurs 1-4"
+    },
+    {
+        "name": "Christ Lutheran Church Food Pantry",
+        "address": "5101 N Kimbal Ave",
+        "city": "Chicago",
+        "zip": 60625,
+        "state": "IL",
+        "phone": "773-478-7941",
+        "hoursOfOp": "Sun 10:30AM-12PM"
+    },
+    {
+        "name": "New Seed Pantry",
+        "address": "4716 N Malden St",
+        "city": "Chicago",
+        "zip": 60640,
+        "state": "IL",
+        "phone": "",
+        "hoursOfOp": "Sat 9-11AM"
+    }
+]
