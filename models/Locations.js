@@ -13,6 +13,10 @@ Locations.init(
             primaryKey: true,
             autoIncrement: true,
         },
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         address: {
             type: DataTypes.STRING,
             allowNull: false,
