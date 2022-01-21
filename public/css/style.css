@@ -45,13 +45,6 @@ img {
 
 /* Dashboard */
 
-.header {
-    display: flex;
-    flex-direction:row;
-    background-color: blue;
-
-}
-
 title {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -61,7 +54,7 @@ title {
     text-align: center;
     background-size: cover;
     height: 200px;
-    width: 50%;
+    width: 70%;
     margin: auto;
     display: table;
     -webkit-box-reflect: above 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
@@ -73,10 +66,11 @@ title {
     justify-content: center;
 }
 
-/* #pure-form {
-    margin: 50px;
-    color: black;
-} */
+.pure-form {
+    border-style: groove;
+    border-color: #BF4F45;
+    padding: 5px;
+}
 
 .pure-form {
     margin: 50px;
@@ -87,8 +81,8 @@ title {
 .map {
     display: flex;
     justify-content: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -99,13 +93,6 @@ title {
     color: black;
 }
 
-.favorites {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .button-fave {
     background: white;
     border-radius: 10px;
@@ -113,10 +100,26 @@ title {
     color: black;
 }
 
-.favetext{
+.button-fave:hover {
+    background-color: rgb(224, 224, 224);
+    color: #BF4F45;
+  }
+
+  .button-search:hover {
+    background-color: rgb(224, 224, 224);
+    color: #BF4F45;
+  }
+
+h4 {
     display: flex;
     justify-content: center;
 }
+
+.p {
+    display: flex;
+    justify-content: center;
+}
+
 .favtable {
     display: flex;
     justify-content: center;

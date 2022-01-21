@@ -18,7 +18,8 @@
     <img class='dashimg' src="assets/dashboard pantry.jpg" alt="pantry checklist">
   </figure>
   <h1 class="pagedash">MY DASHBOARD</h1>
-  <a class='pagedash' href="/api/reviews">Leave a Review for Your Favorite Spots Here!</a>
+  <p>Your private page to search for a pantry and save your favorites with comments.</p>
+  <a class='pagedash' href="/api/reviews">Leave a Public Review for Your Favorite Spots Here!</a>
 
   <div class="pure-g">
     {{!-- Search bar for pantry --}}
@@ -31,8 +32,12 @@
       {{!-- button to add pantry to favorites and comments--}}
       <form class="pure-form">
         <fieldset class="pure-group">
-          <p>Save to Dashbard</p>
+          <h4>Save to My Dashboard Favorites</h4>
+          <br>
+          <p>(Not all fields required)</p>
+          <p>Anything you write here only appears in your dashboard!</p>
           <input type="text" class="pure-input-1" placeholder="Pantry Name" />
+          <br>
           <input type="text" class="pure-input-1" placeholder="Pantry Address" />
         </fieldset>
         <fieldset class="pure-group">
@@ -46,17 +51,17 @@
     <div class="pure-u-1-2">
       <div class='map'>
         <div class='pure-u-1-2'>
-          <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-23.55052&lon=-46.63331&pin=1&desc=1" width="175%"
+          <iframe src="https://embed.waze.com/iframe?zoom=14&lat=-23.55052&lon=-46.63331&pin=1&desc=1" width="200%"
             height="520"></iframe>
         </div>
       </div>
     </div>
   </div>
+  <br>
 
   {{!-- table of favorite places and comments --}}
-  <div class='favetext'>
-    <h4>Favorites</h4>
-    <p>Table shows all your favorite locations, their address, and comments added.</p>
+     <h4>⭐Favorites⭐</h4>
+    <p class='p'>Table shows all your favorite locations and private comments added.</p>
   </div>
   <div class='favtable'>
     <table class="pure-table">
