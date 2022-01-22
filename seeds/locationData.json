@@ -6,7 +6,7 @@
         "zip": 60647,
         "state": "IL",
         "phone": "773-499-9763",
-        "hoursOfOp": "Mon 4-6pm, Thurs 10AM-12PM"
+        "hours_op": "Mon 4-6pm, Thurs 10AM-12PM"
     },
     {
         "name": "Marillac Food Pantry",
@@ -15,7 +15,7 @@
         "zip": 60612,
         "state": "IL",
         "phone": "773-584-3244",
-        "hoursOfOp": "Wed 2:30-5:30PM, Fri 10AM-3:30PM"
+        "hours_op": "Wed 2:30-5:30PM, Fri 10AM-3:30PM"
     },
     {
         "name": "Shepherd's HOPE, Ltd",
@@ -24,7 +24,7 @@
         "zip": 60621,
         "state": "IL",
         "phone": "773-846-94949",
-        "hoursOfOp": "Tue/Wed 10AM-2PM"
+        "hours_op": "Tue/Wed 10AM-2PM"
         
     },
     {
@@ -34,7 +34,7 @@
         "zip": 60645,
         "state": "IL",
         "phone": "773-973-1000",
-        "hoursOfOp": "Tue/Wed/Thurs/ 9AM-3PM, Fri 9AM-2PM"
+        "hours_op": "Tue/Wed/Thurs/ 9AM-3PM, Fri 9AM-2PM"
     },
     {
         "name": "St. Paul & the Redeemer",
@@ -43,7 +43,7 @@
         "zip": 60615,
         "state": "IL",
         "phone": "773-624-3185",
-        "hoursOfOp": "Wed 3:30-5:30PM, Sun 8AM-1PM"
+        "hours_op": "Wed 3:30-5:30PM, Sun 8AM-1PM"
     },
     {
         "name": "Feed Clothe and Help The Needy",
@@ -52,7 +52,7 @@
         "zip": 60636,
         "state": "IL",
         "phone": "773-426-8277",
-        "hoursOfOp": "Tue/Wed/Thurs/Fri 11AM-2PM"
+        "hours_op": "Tue/Wed/Thurs/Fri 11AM-2PM"
     },
     {
         "name": "Breakthrough Urban Ministries",
@@ -61,7 +61,7 @@
         "zip": 60612,
         "state": "IL",
         "phone": "773-722-1144",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 9AM-3PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 9AM-3PM"
     },
     {
         "name": "Beverly Hills SDA Food Pantry",
@@ -70,7 +70,7 @@
         "zip": 60620,
         "state": "IL",
         "phone": "773-233-7264",
-        "hoursOfOp": "Wed 10AM-12PM"
+        "hours_op": "Wed 10AM-12PM"
     },
     {
         "name": "St Elizabeth of the Trinity Parish",
@@ -79,7 +79,7 @@
         "zip": 60646,
         "state": "IL",
         "phone": "773-762-8228",
-        "hoursOfOp": "Mon/Wed/Thurs 1-2"
+        "hours_op": "Mon/Wed/Thurs 1-2"
     },
     {
         "name": "Kingdom of God Missionary Baptist Church",
@@ -88,7 +88,7 @@
         "zip": 60609,
         "state": "IL",
         "phone": "773-306-1362",
-        "hoursOfOp":"Tues 12-2PM"
+        "hours_op":"Tues 12-2PM"
     },
     {
         "name": "Care For Real",
@@ -97,7 +97,7 @@
         "zip": 60640,
         "state": "IL",
         "phone": "773-769-6182",
-        "hoursOfOp": "Mon 4-7PM, Wed/Fri 9AM-12PM, Sat 9AM -1PM"
+        "hours_op": "Mon 4-7PM, Wed/Fri 9AM-12PM, Sat 9AM -1PM"
     },
     {
         "name": "St Mark United Methodist Church",
@@ -106,7 +106,7 @@
         "zip": 60619,
         "state": "IL",
         "phone": "773-846-2992",
-        "hoursOfOp": " Wed 10AM-2PM"
+        "hours_op": " Wed 10AM-2PM"
     },
     {
         "name": "La Casa Norte's Fresh Market",
@@ -115,7 +115,7 @@
         "zip": 60647,
         "state": "IL",
         "phone": "773-388-1600",
-        "hoursOfOp": "Mon/Wed 9AM-5PM, Tue 10AM-5PM, Thurs 11AM-7PM, Fri 9AM-5PM"
+        "hours_op": "Mon/Wed 9AM-5PM, Tue 10AM-5PM, Thurs 11AM-7PM, Fri 9AM-5PM"
     
     },
     {
@@ -125,7 +125,7 @@
         "zip": 60651,
         "state": "IL",
         "phone": "773-637-4800",
-        "hoursOfOp": "Sat 8-10AM"
+        "hours_op": "Sat 8-10AM"
     
     },
     {
@@ -135,7 +135,7 @@
         "zip": 60615,
         "state": "IL",
         "phone": "782-333-5199",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM, Sat 10AM-3PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM, Sat 10AM-3PM"
     
     },
     {
@@ -145,7 +145,7 @@
         "zip": 60626,
         "state": "IL",
         "phone": "773-262-2297",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Satu/Sun 12-2PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri/Satu/Sun 12-2PM"
     
     },
     {
@@ -155,7 +155,7 @@
         "zip": 60618,
         "state": "IL",
         "phone": "773-327-0553",
-        "hoursOfOp": "Wed 12-8PM, Thurs 1-4PM"
+        "hours_op": "Wed 12-8PM, Thurs 1-4PM"
     
     },
     {
@@ -165,7 +165,7 @@
         "zip": 60618,
         "state": "IL",
         "phone": "773-283-6296",
-        "hoursOfOp": "Wed 9AM-12PM"
+        "hours_op": "Wed 9AM-12PM"
     
     },
     {
@@ -175,7 +175,7 @@
         "zip": 60613,
         "state": "IL",
         "phone": "773-525-1777",
-        "hoursOfOp": "Mon/Wed/Fri/Sat 11AM-3PM, Thur 4-7PM"
+        "hours_op": "Mon/Wed/Fri/Sat 11AM-3PM, Thur 4-7PM"
     
     },
     {
@@ -185,7 +185,7 @@
         "zip": 60632,
         "state":"IL",
         "phone": "773-247-3663",
-        "hoursOfOp": "Mon/Tue/Wed/Thurs/Fri 8:30AM-5PM"
+        "hours_op": "Mon/Tue/Wed/Thurs/Fri 8:30AM-5PM"
     
     },
     {
@@ -195,7 +195,7 @@
         "zip": 60640,
         "state": "IL",
         "phone": "773-271-8163",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 7AM-7PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri/Sat/Sun 7AM-7PM"
     
     },
     {
@@ -205,7 +205,7 @@
         "zip": 60643,
         "state": "IL",
         "phone": "773-995-7721",
-        "hoursOfOp": "Sat 10AM-1PM"
+        "hours_op": "Sat 10AM-1PM"
     
     },
     {
@@ -215,7 +215,7 @@
         "zip": 60640,
         "state": "IL",
         "phone": "773-779-5151",
-        "hoursOfOp": "Sat 10AM-12PM"
+        "hours_op": "Sat 10AM-12PM"
     
     },
     {
@@ -225,7 +225,7 @@
         "zip": 60614,
         "state": "IL",	
         "phone": "773-932-1010",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
     
     },
     {
@@ -235,7 +235,7 @@
         "zip": 60626,
         "state": "IL",
         "phone": "773-262-6622",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9AM-5PM"
     
     },
     {
@@ -245,7 +245,7 @@
         "zip": 60626,
         "state": "IL",
         "phone": "773-761-6689",
-        "hoursOfOp": "Sat 9AM-11PM"
+        "hours_op": "Sat 9AM-11PM"
     },
     {
         "name": "Oak Park River Forest Food Pantry",
@@ -254,7 +254,7 @@
         "zip": 60301,
         "state": "IL",
         "phone": "708-386-1324",
-        "hoursOfOp": "Wed 3:30-5:30PM, Sat 9AM-12PM"
+        "hours_op": "Wed 3:30-5:30PM, Sat 9AM-12PM"
     },
     {
         "name": "Trinity Charities Inc. Food Pantry",
@@ -263,7 +263,7 @@
         "zip": "60173",
         "state": "IL",
         "phone": "847-264-4660",
-        "hoursOfOp": "Thurs 4-6PM, Sat 10AM-1PM"
+        "hours_op": "Thurs 4-6PM, Sat 10AM-1PM"
     },
     {
         "name": "York Township Pantry",
@@ -272,7 +272,7 @@
         "zip": 60148,
         "state": "IL",
         "phone": "630-620-2400",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9-11AM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9-11AM"
     },
     {
         "name": "Lombard-Villa Park Pantry",
@@ -281,7 +281,7 @@
         "zip": 60148,
         "state": "IL",
         "phone": "",
-        "hoursOfOp": "Mon 9AM-11:45AM, Wed 9AM-11:45AM, Fri 9AM-12PM"
+        "hours_op": "Mon 9AM-11:45AM, Wed 9AM-11:45AM, Fri 9AM-12PM"
     },
     {
         "name": "Calvary Church Pantry",
@@ -290,7 +290,7 @@
         "zip": 60564,
         "state": "IL",
         "phone": "630-851-7000",
-        "hoursOfOp": "MOn/Tues/Wed/Thurs/ 8AM-12PM & 1-5PM, Sun 9AM-12:30PM"
+        "hours_op": "MOn/Tues/Wed/Thurs/ 8AM-12PM & 1-5PM, Sun 9AM-12:30PM"
     },
     {
         "name": "Loaves & Fishes Community Services",
@@ -299,7 +299,7 @@
         "zip": 60540,
         "state": "IL",
         "phone": "630-355-3663",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs 9AM-5PM, Fri 9AM-2PM, Sat 9AM-12PM"
+        "hours_op": "Mon/Tues/Wed/Thurs 9AM-5PM, Fri 9AM-2PM, Sat 9AM-12PM"
     },
     {
         "name": "Orland Township Food Pantry",
@@ -308,7 +308,7 @@
         "zip": 60462,
         "state": "IL",
         "phone": "708-403-4222",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
     },
     {
         "name": "Our Lady of Hope Catholic Church - Food Pantry",
@@ -317,7 +317,7 @@
         "zip": 60018,
         "state": "IL",
         "phone": "847-825-4673",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 9AM-4PM"
     },
     {
         "name": "Moraine Township Food Pantry",
@@ -326,7 +326,7 @@
         "zip": 60035,
         "state": "IL",
         "phone": "847-432-3240",
-        "hoursOfOp": "Mon/Tues/Wed/Thurs/Fri 8:30AM-4:30PM"
+        "hours_op": "Mon/Tues/Wed/Thurs/Fri 8:30AM-4:30PM"
     },
     {
         "name": "Zion Evangelical Lutheran Soup Kitchen",
@@ -335,7 +335,7 @@
         "zip": 60123,
         "state": "IL",
         "phone": "847-888-2882",
-        "hoursOfOp": "Tues 5:30-6:30PM"
+        "hours_op": "Tues 5:30-6:30PM"
     },
     {
         "name": "Evanston Vineyard Food Pantry",
@@ -344,7 +344,7 @@
         "zip": 60202,
         "state": "IL",
         "phone": "847-328-4544",
-        "hoursOfOp": "Wed 6-8PM"
+        "hours_op": "Wed 6-8PM"
     },
     {
         "name": "Self Help Closet and Pantry of Des Plaines",
@@ -353,7 +353,7 @@
         "zip": 60016,
         "state": "IL",
         "phone": "847-375-1443",
-        "hoursOfOp": "Mon/Sat 9AM-12PM, Tues 9AM-3PM"
+        "hours_op": "Mon/Sat 9AM-12PM, Tues 9AM-3PM"
     },
     {
         "name": "Leyden Family Services - Food Pantry",
@@ -362,7 +362,7 @@
         "zip": 60131,
         "state": "IL",
         "phone": "847-451-5117 / 847-451-5112",
-        "hoursOfOp": "Appoinment Only!"
+        "hours_op": "Appoinment Only!"
     },
     {
         "name": "Food4Life at Resurrection Lutheran",
@@ -371,7 +371,7 @@
         "zip": 60131,
         "state": "IL",
         "phone": "847-455-7013",
-        "hoursOfOp": "Mon 12-3PM"
+        "hours_op": "Mon 12-3PM"
     },
     {
         "name": "Congregation Beth Am",
@@ -380,7 +380,7 @@
         "zip": 60089,
         "state": "IL",
         "phone": "847-383-5017",
-        "hoursOfOp": "Tues/Wed/Thurs 10AM-5PM, Fri 10AM-3PM"
+        "hours_op": "Tues/Wed/Thurs 10AM-5PM, Fri 10AM-3PM"
     },
     {
         "name": "Fish OF Downers Grove",
@@ -389,7 +389,7 @@
         "zip": 60515,
         "state": "IL",
         "phone": "630-964-7776",
-        "hoursOfOp": "Tues/Thurs 8:30-10:30AM, Fri 8:30-11AM"
+        "hours_op": "Tues/Thurs 8:30-10:30AM, Fri 8:30-11AM"
     },
     {
         "name": "St Anastasia Food Pantry",
@@ -398,7 +398,7 @@
         "zip": 60085,
         "state": "IL",
         "phone": "847-636-2875",
-        "hoursOfOp": "Thurs 10AM-12PM"
+        "hours_op": "Thurs 10AM-12PM"
     },
     {
         "name": "Shiloh Baptist Church Soup Kitchen",
@@ -407,7 +407,7 @@
         "zip": 60085,
         "state": "IL",
         "phone": "847-662-6325",
-        "hoursOfOp": "Wed 4-6PM"
+        "hours_op": "Wed 4-6PM"
     },
     {
         "name": "Holy Family Food Pantry",
@@ -416,7 +416,7 @@
         "zip": 60085,
         "state": "IL",
         "phone": "847-775-0116",
-        "hoursOfOp": "Wed/Thurs/Fri/Sat 5:30-6:30PM"
+        "hours_op": "Wed/Thurs/Fri/Sat 5:30-6:30PM"
     },
     {
         "name": "Village Pantry Coalition",
@@ -425,7 +425,7 @@
         "zip": 60805,
         "state": "IL",
         "phone": "708-422-8776",
-        "hoursOfOp": "Fri 9:30AM-12PM"
+        "hours_op": "Fri 9:30AM-12PM"
     },
     {
         "name": "Arab American Ed. Council",
@@ -434,7 +434,7 @@
         "zip": 60652,
         "state": "IL",
         "phone": "773-581-1083",
-        "hoursOfOp": "Appointment Only!"
+        "hours_op": "Appointment Only!"
     },
     {
         "name": "Common Food Pantry",
@@ -443,7 +443,7 @@
         "zip": 60618,
         "state": "IL",
         "phone": "773-327-0553",
-        "hoursOfOp": "Wed 12-4PM & 6-8PM, Thurs 1-4"
+        "hours_op": "Wed 12-4PM & 6-8PM, Thurs 1-4"
     },
     {
         "name": "Christ Lutheran Church Food Pantry",
@@ -452,7 +452,7 @@
         "zip": 60625,
         "state": "IL",
         "phone": "773-478-7941",
-        "hoursOfOp": "Sun 10:30AM-12PM"
+        "hours_op": "Sun 10:30AM-12PM"
     },
     {
         "name": "New Seed Pantry",
@@ -461,6 +461,6 @@
         "zip": 60640,
         "state": "IL",
         "phone": "",
-        "hoursOfOp": "Sat 9-11AM"
+        "hours_op": "Sat 9-11AM"
     }
 ]

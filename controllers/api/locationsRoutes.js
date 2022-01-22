@@ -22,4 +22,13 @@ router.post('/',  (req, res) => {
 
 });
 
+router.get('/', async (req, res) => {
+    const locationData = await Locations.findAll().catch((err) => {
+        res.json(err)
+    })
+         const locations = locationData.map((location) => location.get({ plain:true}))
+         res.render('locations', { locations })
+ });
+
+
 module.exports = router;

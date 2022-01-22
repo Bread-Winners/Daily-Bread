@@ -41,7 +41,7 @@ Locations.init(
             type: DataTypes.TINYINT,
             allowNull: true,
         },
-        hoursOfOp: {
+        hours_op: {
             type: DataTypes.STRING,
             allowNull: false,
         },
