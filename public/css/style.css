@@ -182,7 +182,7 @@ title {
     text-align: center;
     background-size: cover;
     height: 200px;
-    width: 70%;
+    width: 65%;
     margin: auto;
     display: table;
     -webkit-box-reflect: above 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
@@ -192,15 +192,18 @@ title {
 .pagedash {
     display: flex;
     justify-content: center;
+    font-family: 'Syne', sans-serif;
 }
 
-.pure-form {
-    border-style: groove;
-    border-color: #BF4F45;
-    padding: 5px;
+#pf {
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Syne', sans-serif
 }
 
-.pure-form {
+#pf {
     margin: 50px;
     color: black;
 }
@@ -209,22 +212,32 @@ title {
 .map {
     display: flex;
     justify-content: left;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 75px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+}
+
+iframe {
+    display: flex;
+    justify-content: left;
+    border-radius: 25px;
 }
 
 
 .button-search {
     background: white;
     border-radius: 10px;
-    border-color: black;
+    border-color: lightgray;
     color: black;
 }
 
 .button-fave {
     background: white;
     border-radius: 10px;
-    border-color: black;
+    border-color: lightgray;
     color: black;
 }
 
@@ -241,6 +254,7 @@ title {
 h4 {
     display: flex;
     justify-content: center;
+    font-family: 'Syne', sans-serif;
 }
 
 .p {
@@ -251,6 +265,12 @@ h4 {
 .favtable {
     display: flex;
     justify-content: center;
+    border-style: solid;
+    border-color: #BF4F45;
+    /* border-radius: 25px; */
+    margin-right: 160px;
+    margin-left: 160px;
+    font-family: 'Syne', sans-serif;
 }
 
 
