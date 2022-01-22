@@ -59,12 +59,17 @@
     </table>
   </div>
 
-
-
-
-  <footer>Made with 🔥 by a Jackalope</footer>
-
-
-
+  
+  <div class="">
+    {{#each reviews as |review|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/review/{{review.id}}">{{users.review.pantry_name}}</a></h4>
+        <h4><a href="/review/{{review.id}}">{{review.pantry_name}}</a></h4>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+  
 
 <script src="./js/reviews.js"></script>
