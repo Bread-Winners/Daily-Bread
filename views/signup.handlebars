@@ -1,31 +1,36 @@
-<section>
-  <h2>Sign up</h2>
-  <form class="pure-form pure-form-aligned signup-form">
+<section class="pure-g join-signin-section">
+  <form class="pure-form pure-form-stacked signup-form pure-u-1 pure-u-md-3-5 pure-u-lg-1-2">
     <fieldset>
-      <div class="pure-control-group">
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" placeholder="First name" required="" />
-      </div>
-      <div class="pure-control-group">
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" placeholder="Last name" required="" />
-      </div>
-      <div class="pure-control-group">
-        <label for="email-signup">Email:</label>
-        <input type="email" id="email-signup" placeholder="Email" required="" />
-      </div>
-      <div class="pure-control-group">
-        <label for="password-signup">Password:</label>
-        <input type="password" id="password-signup" placeholder="Password" required="" />
-      </div>
-      <div class="pure-control-group">
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" placeholder="Confirm password" required="" />
-      </div>
-      <div class="pure-controls">
-        <button type="submit" class="pure-button pure-button-primary">Sign up</button>
-      </div>
+      <legend class="join-now-heading">Let's Get Started <h3 class="join-now-subheading"> Already have an account?
+          <span><a id="join-signin-link" class="link" href="/login">Log in</a> </span></h3>
+      </legend>
+
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" placeholder="First name" required="" />
+
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" placeholder="Last name" required="" />
+
+      <label for="email-signup">Email:</label>
+      <input type="email" id="email-signup" placeholder="Email" required="" />
+
+
+      <label for="password-signup">Password:</label>
+      <input type="password" id="password-signup" placeholder="Password" required="" />
+
+
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" placeholder="Confirm password" required="" />
+
+
+      <button type="submit" class=" join-singin-button pure-button pure-button-primary">Join</button>
     </fieldset>
   </form>
+
+<figure class="pure-u-md-3-5 pure-u-lg-1-2">
+  <img id="join-img" src="assets/steaming-pot.jpg" alt="Steaming pot on stove">
+</figure>
+
 </section>
+
 <script src="./js/signup.js"></script>
