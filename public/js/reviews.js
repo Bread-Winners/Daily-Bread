@@ -7,11 +7,7 @@ const addPersonalReview = async (event) => {
 
         const pantry_address = document.querySelector("#pantry-address").value.trim();
         const comment = document.querySelector("#pantry-comment").value.trim();
-        const tableBody = document.querySelector("#example");
 
-        var example = document.createElement("h4")
-        example.textContent = pantry_name.value
-        tableBody.appendChild(example);
 
         if (pantry_name == null) {
                 alert("Must enter in pantry name")
