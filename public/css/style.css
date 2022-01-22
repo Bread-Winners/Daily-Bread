@@ -235,6 +235,11 @@ title {
     font-family: 'Syne', sans-serif;
 }
 
+
+.pantries {
+    font-size: larger;
+}
+
 #pf {
     border-style: solid;
     border-color: black;
@@ -314,51 +319,54 @@ h4 {
 }
 
 
+.name {
+    text-decoration: underline overline black;
+}
+
+.locations-map {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+
 @media screen and (min-width: 64em) {
     .img {
         width: 22%;
     }
     #logo {
         width: 7vw;
-        background-image: image();
     }
-
+    
     #join-img {
         height: 85vh;
     }
-
+    
     #sigin-img {
         height: 80vh;
     }
-  
-}
-
-.locations {
-    margin-left: 2%;
-}
-
-.name-size {
-    margin-bottom: 1rem;
-}
-
-.locations-map {
-    margin-left: 50%;
-}
-
-.name {
-    text-decoration: underline overline black;
-}
-
-
-/* 
-@media (min-width: 48em) {
-    .content {
-        padding: 2em 3em 0;
-        margin-left: 25%;
+    
+    .locations {
+        margin-left: 2%;
+    }
+    
+    .name-size {
+        margin-bottom: 1rem;
+    }
+    
+    .locations-map {
+        margin-left: 50%;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .name {
+        text-decoration: underline overline black;
     }
 
-    .header {
-        margin: 80% 2em 0;
-        text-align: right;
+    .info {
+        font-weight: 400;
     }
-} */
+    
+}
