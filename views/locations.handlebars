@@ -1,0 +1,29 @@
+<div class="pure-u-1-2">
+      <div class='locations-map'>
+        <div class='pure-u-1-2'>
+          <iframe src="https://embed.waze.com/iframe?zoom=11&lat=41.881832&lon=-87.623177&pin=1&desc=1" width="400%"
+            height="520"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="locations">
+{{#each locations as |location|}}
+        <div class="name">
+            <h2 class="name-size">{{location.name}}</h2>
+        </div>
+        <div class="info">
+        <div class="address">
+            <p>{{address}}</p>
+        </div>
+        <div class="city">
+            <p>{{city}}</p>
+        </div>
+        <div class="phone">
+            <p>{{phone}}</p>
+        </div>
+        <div class="hours">
+            <p>{{hours_op}}</p>
+        </div>
+        </div>
+        {{/each}}
+    </div>

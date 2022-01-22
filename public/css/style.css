@@ -296,6 +296,22 @@ h4 {
   
 }
 
+.locations {
+    margin-left: 2%;
+}
+
+.name-size {
+    margin-bottom: 1rem;
+}
+
+.locations-map {
+    margin-left: 50%;
+}
+
+.name {
+    text-decoration: underline overline black;
+}
+
 
 /* 
 @media (min-width: 48em) {
