@@ -14,18 +14,19 @@ Reviews.init(
             autoIncrement: true,
         },
 
-        locations_id: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: 'locations',
-                key: 'id',
-            },
+        pantry_name: {
+            type: DataTypes.STRING,
+            allowNull: true,
+        },
+
+        pantry_address: {
+            type: DataTypes.STRING,
+            allowNull: true,
         },
 
         users_id: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
             references: {
                 model: 'users',
                 key: 'id',
@@ -38,16 +39,6 @@ Reviews.init(
             validate: {
                 max: 280
             },
-        },
-
-        rating: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-
-        public: {
-            type: DataTypes.TINYINT,
-            allowNull: false,
         },
     },
 
