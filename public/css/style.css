@@ -5,9 +5,17 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
+    align-items: center;
     width: 100vw;
 
+}
+
+.link:hover {
+    text-shadow: 4px 5px 5px rgba(0,0,0,0.19);
+}
+
+#logo {
+    width: 15vw;
 }
 
 .pure-menu-heading {
@@ -20,10 +28,10 @@ nav {
 }
 
 .pure-menu-list {
-    margin-right: 1%;
+    margin-right: 2%;
 }
 
-#joinnow {
+#joinnow, #logout {
     background: none;
     color: #F2A950;
     font-size: 2vh;
@@ -31,7 +39,7 @@ nav {
     font-weight: 700;
 }
 
-#signin {
+#signin, #dashboard {
     background: none;
     border: .01rem #7C8C42 solid;
     border-radius: 5px;
@@ -52,7 +60,15 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: middle;
-    margin-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 2%;
+}
+
+.about-little-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-header {
@@ -67,6 +83,7 @@ nav {
 
 .about-p {
     font-size: 1.75vh;
+    line-height: 1.7;
 }
 
 .about-p-1 {
@@ -77,77 +94,9 @@ h2 {
     font-size: 3.5vh;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
+    margin-bottom: 3.5%;
 }
 
-
-blockquote {
-    position: relative;
-    max-width: 620px;
-    margin: 80px auto;
-    align-self: center;
-}
-
-
-span {
-    color: #F2A950;
-}
-
-.blockquote h3 {
-    position: relative;
-    font-size: 2vh;
-    font-weight: normal;
-    line-height: 1.15;
-    margin: 0;
-    border: solid 2px ;
-    border-radius:20px;
-    padding: 25px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-}
-
-.blockquote h3:after {
-    content:"";
-    position: absolute;
-    border: 2px solid ;
-    border-radius: 0 50px 0 0;
-    width: 60px;
-    height: 60px;
-    bottom: -60px;
-    left: 50px;
-    border-bottom: none;
-    border-left: none;
-    z-index: 3; 
-}
-
-.blockquote h3:before {
-    content:"";
-    position: absolute;
-    width: 80px;
-    border: 6px solid #ffffff;
-    bottom: -3px;
-    left: 50px;
-    z-index: 2;
-}
-
-
-
-.blockquote h4 {
-    position: relative;
-    color: #000000;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 1;
-    padding-top: 15px;
-    margin-left:150px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    
-}
-
- 
-.blockquote h4:first-letter {
-  margin-left:-12px;
-}
 
 .about-imgs {
   display: flex;
@@ -164,12 +113,66 @@ span {
     1.4px 2px 5.3px rgba(0, 0, 0, 0.024),
     4px 5.6px 14.8px rgba(0, 0, 0, 0.035),
     9.6px 13.6px 35.6px rgba(0, 0, 0, 0.046),
-    32px 45px 118px rgba(0, 0, 0, 0.07)
-  ;
+    32px 45px 118px rgba(0, 0, 0, 0.07);
     /* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4)); */
 
 }
 
+
+/* Join Now */
+.join-signin-section {
+    display: flex;
+    align-items: center;
+    justify-content: middle;
+}
+
+.signup-form {
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.join-now-heading {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+}
+
+.join-now-subheading {
+    font-size: 1.5vh;
+}
+
+span {
+    color: #F2A950;
+}
+
+#join-signin-link {
+    text-decoration: none;
+    color: #F2A950;
+}
+
+#join-img {
+    height: 80vh;
+    border-radius: 45px;
+}
+
+.join-singin-button {
+    background: none;
+    border: .01rem #7C8C42 solid;
+    border-radius: 5px;
+    color: #203140;
+    font-size: 1.5vh;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+}
+
+.login-form {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+#sigin-img {
+    height: 70vh;
+    border-radius: 45px;
+}
 
 /* Dashboard */
 
@@ -194,16 +197,7 @@ title {
     justify-content: center;
 }
 
-.pure-form {
-    border-style: groove;
-    border-color: #BF4F45;
-    padding: 5px;
-}
 
-.pure-form {
-    margin: 50px;
-    color: black;
-}
 
 /* Waze Map */
 .map {
@@ -253,6 +247,26 @@ h4 {
     justify-content: center;
 }
 
+
+
+
+@media screen and (min-width: 64em) {
+    .img {
+        width: 22%;
+    }
+    #logo {
+        width: 7vw;
+    }
+
+    #join-img {
+        height: 85vh;
+    }
+
+    #sigin-img {
+        height: 80vh;
+    }
+  
+}
 
 /* 
 @media (min-width: 48em) {

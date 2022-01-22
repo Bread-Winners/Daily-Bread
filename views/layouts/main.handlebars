@@ -18,14 +18,14 @@
 
 
   <nav class="pure-menu pure-menu-horizontal">
-    <a class="pure-menu-heading" href="/">NeighborGoods</a>
+    <a class="pure-menu-heading" href="/"><img id="logo" src="assets/logo.svg" alt="NeighborGood's logo"></a>
 
     <ul class="pure-menu-list">
       {{#if logged_in}}
       <li class="pure-menu-item"><a class="pure-menu-link" id="logout" href="/">Log out</a></li>
-      <li class="pure-menu-item"><a class="pure-menu-link" href="/dashboard">Dashboard</a></li>
+      <li class="pure-menu-item"><a class="pure-menu-link" id="dashboard" href="/dashboard">Dashboard</a></li>
       {{else}}
-      <li class="pure-menu-item"><a id="joinnow" class="pure-menu-link" href="/signup">Join
+      <li class="pure-menu-item"><a id="joinnow" class="pure-menu-link link" href="/signup">Join
           Now</a></li>
       <li class="pure-menu-item"><a id="signin" class="pure-menu-link" href="/login">Sign In</a>
       </li>
