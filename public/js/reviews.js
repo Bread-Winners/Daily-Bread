@@ -1,4 +1,5 @@
 const addPersonalReview = async (event) => {
+        console.log("add personal review")
         event.preventDefault();
 
 
@@ -29,4 +30,25 @@ const addPersonalReview = async (event) => {
         }
 }
 
+//function to retrieve the comments/reviews based on the user (will be done in route file)
+
+
+const displayReviews = async () => {
+        const reviewData = await fetch("/api/reviews") 
+                console.log("look here please work", reviewData)
+        
+}
+
+
+
+
+
+
+
+
+
 document.querySelector('#pf').addEventListener('submit', addPersonalReview);
+
+
+
+displayReviews();

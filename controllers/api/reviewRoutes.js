@@ -3,13 +3,33 @@ const { Reviews, Users } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
-    try {
-        res.render('reviews', {
-            logged_in: req.session.logged_in
-        });
-    } catch (err) {
-        res.status(500).json(err);
-    }
+    const reviewData = await Reviews.findAll({
+        where: {
+            users_id: req.session.users_id
+        }
+    })
+         console.log("thisis rfev", reviewData)
+
+    //     return res.json(dbReviewsData)})
+    // .catch(err => {
+    //     console.log(err);
+    //     res.status(500).json(err);
+    // })
+        
+    // // const reviewData = await Reviews.findAll().catch((err) => {
+    // //     res.json(err)
+    // // })
+
+    // const reviews = reviewData.map((review) =>
+    // review.get({ plain: true }))
+    // res.
+    // try {
+    //     res.render('reviews', {
+    //         logged_in: req.session.logged_in
+    //     });
+    // } catch (err) {
+    //     res.status(500).json(err);
+    // }
 });
 
 router.get('/:id', (req, res) => {
@@ -18,7 +38,10 @@ router.get('/:id', (req, res) => {
             id: req.params.id
         }
     })
-        .then(dbReviewsData => res.json(dbReviewsData))
+        .then(dbReviewsData => {
+            console.log("This is the data", dbReviewsData)
+            
+            return res.json(dbReviewsData)})
         .catch(err => {
             console.log(err);
             res.status(500).json(err);
@@ -26,8 +49,9 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    
+    console.log("hi!!!!!!!", req.body)
         Reviews.create({
+            
            ...req.body,
            users_id: req.session.users_id
 
