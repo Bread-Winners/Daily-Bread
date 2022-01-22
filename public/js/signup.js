@@ -13,7 +13,7 @@ const signupFormHandler = async (event) => {
         return;
     } else {
         if (first_name && last_name && email && password) {
-            const response = await fetch('/signup', {
+            const response = await fetch('/reviews', {
                 method: 'POST',
                 body: JSON.stringify({ first_name, last_name, email, password }),
                 headers: { 'Content-Type': 'application/json' },

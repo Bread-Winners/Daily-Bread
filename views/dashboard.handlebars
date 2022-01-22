@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
-    integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
-  <link rel="stylesheet" href="css/app.css">
-  <title>My Dashboard</title>
-</head>
-
-<body>
   {{!--will have favorite locations, map display, search bar, button to save location --}}
   <figure>
     <img class='dashimg' src="assets/dashboard pantry.jpg" alt="pantry checklist">
@@ -24,29 +10,24 @@
   <div class="pure-g">
     {{!-- Search bar for pantry --}}
     <div class="pure-u-1-2">
-      <form id='pf' class="pure-form">
-        <input type="text" class="pure-input-rounded" placeholder="Search for a Pantry" />
-        <button type="submit" class="button-search">Search 🔍</button>
-      </form>
-
       {{!-- button to add pantry to favorites and comments--}}
       <form id='pf' class="pure-form">
         <fieldset class="pure-group">
           <h4>Save to My Dashboard Favorites</h4>
           <br>
-          <p>(Not all fields required)</p>
+          <p>(All fields required)</p>
           <p>Anything you write here only appears in your dashboard!</p>
-          <input type="text" class="pure-input-1" placeholder="Pantry Name" />
+          <input id="pantry-name" type="text" class="pure-input-1" placeholder="Pantry Name" />
           <br>
-          <input type="text" class="pure-input-1" placeholder="Pantry Address" />
+          <input id="pantry-address" type="text" class="pure-input-1" placeholder="Pantry Address" />
         </fieldset>
         <fieldset class="pure-group">
-          <textarea class="pure-input-1" placeholder="Add comments here"></textarea>
+          <textarea id="pantry-comment" class="pure-input-1" placeholder="Add comments here"></textarea>
         </fieldset>
-        <button type="submit" class="button-fave">Add to Favorites ⭐</button>
+        <button type="submit" class="button-fave" id="add-review">Add to Favorites ⭐</button>
       </form>
     </div>
-
+     
     {{!-- map should go here --}}
     <div class="pure-u-1-2">
       <div class='map'>
@@ -74,45 +55,15 @@
           <th>Comment</th>
         </tr>
       </thead>
-      <tbody>
-        <tr class="pure-table-odd">
-          <td>1</td>
-          <td>Chicago Food Pantry</td>
-          <td>4100 S Pulaski, Chicago, IL 60629</td>
-          <td>Good produce and boxed goods, not good meats, pick up by car only</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>West Side Church of Christ</td>
-          <td>1111 N Harlem, Chicago, IL 60666</td>
-          <td>a little far but great meats and fresh produce</td>
-        </tr>
-        <tr class="pure-table-odd">
-          <td>3</td>
-          <td>St Rita on 63rd</td>
-          <td>2222 W 63rd St, Chicago, IL 60629</td>
-          <td>Good everything, very frienly, gives out a lot</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Chicago Food Bank</td>
-          <td>111 n froisdbtsbf</td>
-          <td>bibbity bopitty bop</td>
-        </tr>
-        <tr class="pure-table-odd">
-          <td>5</td>
-          <td>Pantry 5</td>
-          <td>7777 snwe nrhkfshtbrh</td>
-          <td>hello errbody</td>
-        </tr>
-      </tbody>
     </table>
   </div>
 
 
+
+
   <footer>Made with 🔥 by a Jackalope</footer>
 
-</body>
 
 
-</html>
+
+<script src="./js/reviews.js"></script>

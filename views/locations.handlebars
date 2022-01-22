@@ -6,24 +6,50 @@
         </div>
       </div>
     </div>
-    <div class="locations">
+    
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+    <ul id="myUL" class="locations">
 {{#each locations as |location|}}
-        <div class="name">
-            <h2 class="name-size">{{location.name}}</h2>
-        </div>
+        <li id= "test" class="name">
+            <a class="name-size">{{location.name}}🥝🍅🍌{{address}},  {{city}}    Phone: {{phone}}  Hours: {{hours_op}}</a>
+        </li>
         <div class="info">
-        <div class="address">
-            <p>{{address}}</p>
-        </div>
-        <div class="city">
-            <p>{{city}}</p>
-        </div>
-        <div class="phone">
-            <p>{{phone}}</p>
-        </div>
-        <div class="hours">
-            <p>{{hours_op}}</p>
-        </div>
+        <p class="address">
+            <a></a>
+        </p>
+        <p class="city">
+            <a></a>
+        </p>
+        <p class="phone">
+            <a></a>
+        </p>
+        <p class="hours">
+            <a></a>
+        </p>
         </div>
         {{/each}}
-    </div>
+    </ul>
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Reviews } = require('../../models');
+const { Reviews, Users } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
@@ -12,10 +12,10 @@ router.get('/', withAuth, async (req, res) => {
     }
 });
 
-router.get('/:locations_id', (req, res) => {
+router.get('/:id', (req, res) => {
     Reviews.findAll({
         where: {
-            locations_id: req.params.locations_id
+            id: req.params.id
         }
     })
         .then(dbReviewsData => res.json(dbReviewsData))
@@ -25,14 +25,11 @@ router.get('/:locations_id', (req, res) => {
         })
 });
 
-router.post('/',  (req, res) => {
+router.post('/', (req, res) => {
     
         Reviews.create({
-            locations_id: req.body.locations_id,
-            users_id: req.body.users_id,
-            comment: req.body.comment,
-            rating: req.body.rating,
-            public: req.body.public
+           ...req.body,
+           users_id: req.session.users_id
 
         })
             .then(dbReviewsData => res.json(dbReviewsData))
