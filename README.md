@@ -2,6 +2,8 @@
 
   ![NeighborGood's logo](https://user-images.githubusercontent.com/87889660/150827459-760d8ce8-e85f-445f-9d33-a6e842c99ff2.svg)
   
+  ![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg>)
+  
   With NeighborGoods, you can keep track of the food pantries you have visited and write private notes and public reviews. Did that food pantry you visit yesterday have fresh produce? Write a note to yourself so you remember for next time! 
   
   Our mission is to provide access to healthy and nutritious food for our neighbors, and remove the stigma behind receiving food assistance. Utilizing this application will bring awareness to food pantry services within the Chicagoland area and minimize stigmas sorrounding it.
